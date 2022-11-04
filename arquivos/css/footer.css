@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 30%;
+    width: 154px;
+    height: 50px;
+}

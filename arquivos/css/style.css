@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin: 0;
+    border:0;
+}
+body{
+    background-color: rgb(19, 17, 17);
+}
+
+.menu{
+    color:white;
+    font-size: 38px;
+    font-family: monospace;
+}
+header{
+    background-color:rgb(48, 47, 47);
+    position: fixed;
+    z-index: 2;
+    top:0%;
+    height: 50px;
+    width: 100%;
+}
+
+.fotoPerfil{
+    margin-right: 60px;
+    height: 61%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 15px;
+    box-shadow: 2px 2px 4px 1px white;
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+    margin:0 auto;
+    max-width: 1500px;
+}
+.divisoria{
+    height: 50px;
+}
+
+header ul{
+    width: 400px;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header ul li{
+    color:white;
+    cursor:pointer;
+}
+
+header ul li:after{
+    display:block;
+    content:"";
+    border-bottom:solid 1px rgb(11, 218, 218);
+    padding-bottom: 1%;
+    transform: scaleX(0);
+    transition:transform 300ms ease-in-out;
+}
+header ul li:hover{
+    color:rgb(11, 218, 218);
+    
+}
+header ul li:hover:after{
+    transform: scaleX(1);
+}
+
+.container{
+    width: 90%;
+    max-width: 1500px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.efect:hover{
+    border-bottom: 2px solid green;
+}
+
+.descricao{
+    height: 70%;
+}
+
+section{
+    width: 100%;    
+    height: calc(100vh  - 50px);
+    max-height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos{
+    background-color:rgb(39, 37, 37);
+}
+
+
+footer{
+    background-color: black;
+    height: 600px;
+}
+
+.descricao h1{
+    width: 412px;
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+.descricao h1 span{
+    color: aqua;
+}
+
+.sobre{
+    font-size: 24px;
+    color:white;
+}
+
+.faleCMG{
+    color: #31b9b9;
+    font-size: 22px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    outline: 1px solid;
+    padding: 6px;
+    width: 150px;
+    cursor: pointer;
+      transition: 0.5s ease;
+    transform: translate(0);
+}
+
+.faleCMG:hover{
+   font-size:23px;
+   height: 36px;
+   width: 151px;
+   box-shadow: -7px 4px 28px -3px #2754cf;
+}
+
+.linguagens{
+    display: flex;
+    font-size: 42px;
+    cursor: pointer;
+    width: 300px;
+    justify-content: space-between;
+}
+.js , .html , .css , .git {
+    transition: 0.4s ease;
+    transform: translate(0);
+}
+.js:hover{
+    color:yellow;
+}
+
+.html:hover{
+    color:orange;
+}
+
+.css:hover{
+    color:rgb(27, 82, 231);
+}
+
+.git:hover{
+    color:orangered;
+}
