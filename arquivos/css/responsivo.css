@@ -7,6 +7,7 @@
 
     .fotoPerfil{
         margin-right: 0px;
+        height: 50%;
     }
     .descricao h1{
         margin: 0 auto;
@@ -21,6 +22,10 @@
         padding: 9px;
         margin:0 auto;
         height: 45px;
+    }
+    
+    .faleCMG:hover{
+        height: 47px;
     }
 }
 
