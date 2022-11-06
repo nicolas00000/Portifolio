@@ -51,6 +51,9 @@ header ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: monospace;
 }
 
 header ul li a{
