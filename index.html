@@ -21,17 +21,29 @@
             <span style="font-size: 25px; color:white; font-family: monospace;"> 
                 &lt;/NM&GT;
             </span>
-            <ul> 
-                <li onclick="rolarTopo()">HOME</li>
-                <li>PROJETOS</li>
-                <li onclick="rolarFinal()">CONTATO</li> 
+            <ul class="listaLinks"> 
+                <li>
+                    <a href="#home">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="#projetos">
+                        PROJETOS
+                    </a>
+                </li>
+                <li>
+                    <a href="#contato">
+                        CONTATO
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
 
     <div class="divisoria"></div>
 
-    <section>
+    <section id="home">
         <div class="container container1">
             <img class='fotoPerfil' src="arquivos/img/foto de perfil.jpg" alt="foto de perfil">
             <div class="descricao">
@@ -50,14 +62,14 @@
                 
                 <br>
                 
-                <div class="faleCMG">
+                <a href="https://wa.me//+5512988030168?text=Oii vim pelo seu portifolio..." class="faleCMG">
                     fale comigo
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <section class="projetos">
+    <section class="projetos" id="projetos">
         <div class="container" style="flex-direction: column;">
         
             <h1 class="menu">Meus projetos</h1>
@@ -68,49 +80,11 @@
                 <i class="fa-brands fa-git-alt git"></i>
             </div>
             <div class="row " >
-                   
-                <div class="card card-1">
-                    <img class="imagemPj" src="arquivos/img/buzzQuizz.png" alt="">
-                    <div class="titulo">
-                        <h2>Buzz Quizz</h2>
-                        
-                    </div>
-                </div>
-
-                <div class="card ">
-                    <img class="imagemPj" src="arquivos/img/ifoodOK.jpg" alt="">
-                    <div class="titulo">
-                        <h2>Clone ifood</h2>
-                        
-                    </div>
-                </div>
-
-                <div class="card ">
-                    <img class="imagemPj" src="arquivos/img/gameMario.png" alt="">
-                    <div class="titulo">
-                        <h2>Mario jump</h2>
-                        
-                    </div>
-                </div>
-
-                <div class="card ">
-                    <img class="imagemPj" src="arquivos/img/click.png" alt="">
-                    <div class="titulo">
-                        <h2>Contador</h2>
-                    </div>
-                </div>
-
-                <div class="card ">
-                    <img class="imagemPj" src="arquivos/img/todolist.png" alt="">
-                    <div class="titulo">
-                        <h2>Todo list</h2>
-                        
-                    </div>
-                </div>
-
+              
+<!-- 
                 <div class="card  embreve">
                     <img class="imagemPj" src="arquivos/img/embreve.png" alt="">
-                </div>
+                </div> -->
                 
                 
             </div>          
@@ -118,33 +92,32 @@
 
     </section>
 
-    <footer>
-       
-<ul>
-    <ul>
-        <div></div>
-        <!-- <li class="item">
-          <a href="">  enviar para um site que da para enviar emails para mim 
-            <span class="fa-regular fa-envelopes"></span>
-          </a>
-        </li> -->
-        <li class="item">
-          <a href="https://github.com/nicolas00000">
-            <span class="fa-brands fa-github"></span>
-          </a>
-        </li>
-        <li class="item">
-          <a href="https://www.instagram.com/__nicolas_m/">
-            <span class="fa fa-instagram"></span>
-          </a>
-        </li>
-        <li class="item">
-          <a href="https://www.linkedin.com/in/nicolas-mariano-397830217/">
-            <span class="fa fa-linkedin"></span>
-          </a>
-        </li>
-        <div></div>
-      </ul>
+    <footer id="contato">
+        
+        <ul>
+            <div></div>
+            <!-- <li class="item">
+            <a href="">  enviar para um site que da para enviar emails para mim 
+                <span class="fa-regular fa-envelopes"></span>
+            </a>
+            </li> -->
+            <li class="item">
+            <a href="https://github.com/nicolas00000">
+                <span class="fa-brands fa-github"></span>
+            </a>
+            </li>
+            <li class="item">
+                <a href="https://www.linkedin.com/in/nicolas-mariano-397830217/">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="https://www.instagram.com/__nicolas_m/">
+                    <span class="fa fa-instagram"></span>
+                </a>
+            </li>
+            <div></div>
+        </ul>
     </footer>
     <script src="arquivos/js/script.js"></script>
     <script src="https://kit.fontawesome.com/40fbde2f49.js" crossorigin="anonymous"></script>
